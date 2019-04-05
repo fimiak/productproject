@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from '../../components/carousel/Carousel';
 import '../../styles/Product.css';
 
 class Product extends React.Component {
@@ -14,41 +15,17 @@ class Product extends React.Component {
             </p>
             <div>
               <button className="button-white">
-                <i class="fa fa-play" />
-                &nbsp; Copyright
+                <i className="fa fa-play" />
+                &nbsp; Youtube
               </button>
               <button>
                 Sign up Now &nbsp;
-                <i class="fa fa-angle-right" />
+                <i className="fa fa-angle-right" />
               </button>
             </div>
           </div>
         </div>
-        <div className="product__carousel">
-          <div className="carousel__bg" />
-          <div className="carousel__bg-two" />
-          <div className="carousel__content">
-            <div className="carousel__inner">
-              <h1>
-                <i class="fa fa-recycle" />
-                &nbsp; Recycling
-              </h1>
-              <span>You can do your part for Earth.</span>
-              <p>
-                Recycling can be an easier process than it first seems. There are many ways to contribute to the
-                recycling process by following a few easy steps.
-              </p>
-              <a href="/">Learn More</a>
-            </div>
-          </div>
-          <div className="carousel__links">
-            <ul className="carousel__list">
-              <li className="active" />
-              <li />
-              <li />
-            </ul>
-          </div>
-        </div>
+        <Carousel />
         <div className="product__outro">
           <div className="product__outro_container">
             <div className="product__outro_container_box">
@@ -59,7 +36,7 @@ class Product extends React.Component {
               </p>
               <a href="/">
                 Learn More &nbsp;
-                <i class="fa fa-angle-right" />
+                <i className="fa fa-angle-right" />
               </a>
             </div>
             <div className="product__outro_container_box">
@@ -70,7 +47,7 @@ class Product extends React.Component {
               </p>
               <a href="/">
                 Learn More &nbsp;
-                <i class="fa fa-angle-right" />
+                <i className="fa fa-angle-right" />
               </a>
             </div>
           </div>

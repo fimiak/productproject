@@ -8,11 +8,10 @@ class Pricing extends React.Component {
         <div className="pricing__top">
           <div className="pricing__top-bg" />
           <div className="pricing__top-content">
-            <div className="pricing_title">
-              <span>Pricing</span>
-              <h2>Pricing Plans to Fit All Company Needs</h2>
+            <div className="pricing__title">
+              <p>Pricing</p>
+              <h1>Pricing Plans to Fit All Company Needs</h1>
             </div>
-
             <ul className="pricing__cards">
               <li className="pricing__card">
                 <span>&#9851;</span>
@@ -55,6 +54,7 @@ class Pricing extends React.Component {
           </div>
         </div>
         <div className="pricing__features">
+          <h3>Compare Features</h3>
           <table>
             <tbody>
               <tr>
@@ -64,7 +64,7 @@ class Pricing extends React.Component {
                 <td>Enterprise</td>
               </tr>
               <tr className="pricing__spacer">
-                <td colspan="4">Plan</td>
+                <td colSpan="4">Plan</td>
               </tr>
               <tr>
                 <td>Pick your plan</td>
@@ -73,7 +73,7 @@ class Pricing extends React.Component {
                 <td className="pricing__icon">&#10086;</td>
               </tr>
               <tr className="pricing__spacer">
-                <td colspan="4">Features</td>
+                <td colSpan="4">Features</td>
               </tr>
               <tr>
                 <td>Single Sign-On</td>
@@ -106,7 +106,7 @@ class Pricing extends React.Component {
                 <td>Contact</td>
               </tr>
               <tr className="pricing__spacer">
-                <td colspan="4">&nbsp;</td>
+                <td colSpan="4">&nbsp;</td>
               </tr>
               <tr>
                 <td>

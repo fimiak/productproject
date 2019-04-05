@@ -5,16 +5,21 @@ class About extends React.Component {
   render() {
     return (
       <div className="about">
+        <div className="about__bg" />
+        <div className="about__bg-two" />
         <div className="about__box">
-          <h1>About Us</h1>
+          <h1>
+            <i className="fa fa-mail-bulk" />
+            &nbsp; Welcome
+          </h1>
           <p>
-            Recycling is an important enough activity that we feel it is important to share how and when to recycle to
-            the whole world. If you have questions or concerns about recycling, please contact us at the email address
-            below.
+            This is a website built to demonstrate the use of HTML, SASS, React and Javascript to create a production
+            ready website. If you have questions or concerns about the website's architecture, please contact me at the
+            email address below.
           </p>
-          <a href="/">
+          <a href="mailto:tylergreve@gmail.com">
             Contact Us &nbsp;
-            <i class="fa fa-angle-right" />
+            <i className="fa fa-angle-right" />
           </a>
         </div>
       </div>

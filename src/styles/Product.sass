@@ -35,13 +35,16 @@
   background: #fff
   box-shadow: 0 4px 12px rgba(100,100,100,.25)
   border-radius: 2px
+  min-height: 200px
   padding: 40px
   text-align: left
   width: 270px
 
 .carousel__inner
-  display: flex
+  display: none
   flex-direction: column
+  transition: 500ms
+  opacity: 1
   h1
     color: #004e8b
     margin-bottom: 10px
@@ -50,7 +53,7 @@
     font-size: 14px
   p
     font-size: 14px
-    margin: 40px 0 20px
+    margin: 40px 0
     text-align: left
   a
     align-self: flex-end
@@ -58,19 +61,27 @@
     font-size: 12px
     font-weight: 700
     text-transform: uppercase
+    &:hover
+      color: #555
+  &.active
+    display: flex
+  &.fade
+    transition: 500ms
+    opacity: 0
 
 .carousel__list
   display: flex
   li
-    border-bottom: 3px solid #ddd
+    border-bottom: 3px solid #E8E8E8
     cursor: pointer
     margin: 10px
     padding: 15px
+    transition: 250ms
     width: 50px
     &:hover
-      border-bottom: 3px solid #333
+      border-bottom: 3px solid #888
   .active
-    border-bottom: 3px solid #333
+    border-bottom: 3px solid #888
 
 .product__outro
   display: flex

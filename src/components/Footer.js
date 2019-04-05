@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer class="footer">
+    <footer className="footer">
       <div className="footer__heading">
         <span>&#9851; Recycle</span>
         <span>
@@ -63,19 +63,19 @@ function Footer() {
           </ul>
           <span>
             <a href="/">
-              <i class="fab fa-facebook-square fa-lg" />
+              <i className="fab fa-facebook-square fa-lg" />
             </a>
             &nbsp;
             <a href="/">
-              <i class="fab fa-twitter-square fa-lg" />
+              <i className="fab fa-twitter-square fa-lg" />
             </a>
             &nbsp;
             <a href="/">
-              <i class="fab fa-linkedin fa-lg" />
+              <i className="fab fa-linkedin fa-lg" />
             </a>
             &nbsp;
             <a href="/">
-              <i class="fas fa-address-card fa-lg" />
+              <i className="fas fa-address-card fa-lg" />
             </a>
           </span>
         </div>

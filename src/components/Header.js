@@ -1,11 +1,11 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function Header() {
   return (
     <header className="header">
       <div className="header__logo">
-        <a href="/">&#9851;</a>
+        <Link to="/">&#9851;</Link>
       </div>
       <ul className="">
         <li>
