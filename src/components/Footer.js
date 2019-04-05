@@ -7,7 +7,7 @@ function Footer() {
         <span>&#9851; Recycle</span>
         <span>
           <input placeholder="Enter Email Address" />
-          <button>Try Now</button>
+          <button className="footer__button">Try Now</button>
         </span>
       </div>
       <div className="footer__list">

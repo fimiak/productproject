@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/Pricing.css';
 
 class Pricing extends React.Component {
   render() {
@@ -114,7 +115,7 @@ class Pricing extends React.Component {
                 </td>
                 <td>
                   <h4>Solo</h4>
-                  <button>Create Account</button>
+                  <button className="button-white">Create Account</button>
                 </td>
                 <td>
                   <h4>Group</h4>
@@ -132,23 +133,23 @@ class Pricing extends React.Component {
           <h2>Frequently Asked Questions</h2>
           <div className="pricing__faq-items">
             <p>
-              <h5>How does it work?</h5>If you are on the monthly billing plan, your bill may fluctuate. Includes Even
-              More Stuff.
-            </p>
-            <p>
-              <h5>How much does it cost?</h5>If you are on the monthly billing plan, your bill may fluctuate. Includes
+              <span>How does it work?</span>If you are on the monthly billing plan, your bill may fluctuate. Includes
               Even More Stuff.
             </p>
             <p>
-              <h5>Where are you located?</h5>If you are on the monthly billing plan, your bill may fluctuate. Includes
-              Even More Stuff.
+              <span>How much does it cost?</span>If you are on the monthly billing plan, your bill may fluctuate.
+              Includes Even More Stuff.
             </p>
             <p>
-              <h5>Can I get a refund?</h5>If you are on the monthly billing plan, your bill may fluctuate. Includes Even
-              More Stuff.
+              <span>Where are you located?</span>If you are on the monthly billing plan, your bill may fluctuate.
+              Includes Even More Stuff.
+            </p>
+            <p>
+              <span>Can I get a refund?</span>If you are on the monthly billing plan, your bill may fluctuate. Includes
+              Even More Stuff.
             </p>
           </div>
-          <button>See the Full FAQ</button>
+          <button className="button-white">See the Full FAQ</button>
         </div>
       </div>
     );

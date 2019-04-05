@@ -1,0 +1,205 @@
+.pricing {
+  min-height: 95vh;
+  position: relative; }
+
+.pricing__top {
+  margin-bottom: 120px; }
+
+.pricing__top-bg {
+  background: linear-gradient(175deg, #fff, rgba(95, 197, 98, 0.2));
+  height: 500px;
+  position: absolute;
+  width: 100%;
+  z-index: -5; }
+
+.pricing__top-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  width: 100%; }
+
+.pricing__top-content h2 {
+  font-size: 20px; }
+
+.pricing__top-content h4 {
+  margin: 0; }
+
+.pricing__cards {
+  display: flex;
+  padding: 0 5px;
+  height: 500px;
+  justify-content: center; }
+
+.pricing__card {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px rgba(116, 112, 112, 0.2);
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  height: 300px;
+  margin: 110px 5px 0;
+  padding: 15px;
+  transition: 150ms;
+  width: 200px; }
+
+.pricing__cards .pricing__card:hover {
+  margin: 105px 5px 0; }
+
+.pricing__card:nth-child(2) {
+  height: 320px;
+  padding-top: 35px;
+  margin: 70px 5px 0; }
+
+.pricing__card:nth-child(2):hover {
+  margin: 65px 5px 0; }
+
+.pricing__card:nth-child(3) {
+  height: 340px;
+  margin: 30px 5px 0;
+  padding-top: 55px; }
+
+.pricing__card:nth-child(3):hover {
+  margin: 25px 5px 0; }
+
+.pricing__card h2 {
+  margin: 5px 0; }
+
+.pricing__card h4 {
+  margin: 3px 0; }
+
+.pricing__card span {
+  align-items: center;
+  color: #8ca18c;
+  display: flex;
+  font-size: 2.5rem;
+  height: 50px;
+  justify-content: center;
+  margin-top: 20px;
+  width: 50px; }
+
+.pricing__card ul {
+  padding: 0; }
+
+.pricing__card ul li {
+  list-style: none;
+  font-size: 14px;
+  padding: 1px 0; }
+
+.pricing_title {
+  color: #00457c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  max-width: 400px; }
+
+.pricing_title h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 8px 0; }
+
+.pricing__cards .pricing__card:first-child button {
+  margin-top: 65px; }
+
+.pricing__cards .pricing__card:first-child span {
+  margin: 10px 0; }
+
+.pricing__cards .pricing__card:nth-child(2) button {
+  margin-top: 45px; }
+
+.pricing__cards .pricing__card:nth-child(2) span {
+  margin: 30px 0 10px; }
+
+.pricing__cards .pricing__card:last-child button {
+  margin-top: 10px; }
+
+.pricing__cards .pricing__card:last-child span {
+  margin: 50px 0 10px; }
+
+.pricing__features {
+  background: #fff;
+  display: flex;
+  font-weight: bold;
+  min-height: 20vh;
+  justify-content: center;
+  padding: 50px 0; }
+
+.pricing__features table {
+  background: #fff;
+  box-shadow: 0px 0px 7px rgba(120, 120, 120, 0.2);
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 20px 0; }
+
+.pricing__features table tr {
+  border-bottom: 2px solid #f8f9fb;
+  display: block; }
+
+.pricing__features table tr:first-child {
+  font-weight: bold; }
+
+.pricing__features table tr:last-child {
+  border-bottom: 0; }
+
+.pricing__features table td:first-child {
+  text-align: left;
+  font-weight: 400;
+  width: 130px; }
+
+.pricing__features table td {
+  padding: 10px;
+  width: 120px; }
+
+.pricing__features-text {
+  font-weight: 400; }
+
+.pricing__features .pricing__icon {
+  color: #487e4c;
+  font-size: 16px; }
+
+.pricing__features .pricing__spacer {
+  background: #f8f9fb;
+  color: #555;
+  font-size: 11px; }
+
+.pricing__features table .pricing__spacer td {
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.pricing__faq {
+  align-items: center;
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  padding: 50px 0; }
+
+.pricing__faq-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  padding: 50px 0; }
+
+.pricing__faq-items p {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  margin: 0;
+  padding: 0 5px;
+  text-align: left;
+  width: 200px; }
+
+.pricing__faq-items p span {
+  font-weight: bold;
+  margin-bottom: 5px; }
+
+/*# sourceMappingURL=Pricing.css.map */
