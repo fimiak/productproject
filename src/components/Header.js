@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-
+import LoginWrapper from '../components/login/LoginWrapper';
 function Header() {
   return (
     <header className="header">
@@ -9,7 +9,9 @@ function Header() {
       </div>
       <ul className="">
         <li>
-          <NavLink to="/">Product</NavLink>
+          <NavLink exact to="/">
+            Product
+          </NavLink>
         </li>
         <li>
           <NavLink to="/pricing">Pricing</NavLink>
@@ -20,10 +22,12 @@ function Header() {
       </ul>
       <ul className="">
         <li>
-          <NavLink to="/">Login</NavLink>
+          <NavLink exact to="/login">
+            Login
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/pricing">Sign Up</NavLink>
+          <NavLink to="/login">Sign Up</NavLink>
         </li>
       </ul>
     </header>

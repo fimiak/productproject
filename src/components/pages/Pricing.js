@@ -9,8 +9,8 @@ class Pricing extends React.Component {
           <div className="pricing__top-bg" />
           <div className="pricing__top-content">
             <div className="pricing__title">
-              <p>Pricing</p>
-              <h1>Pricing Plans to Fit All Company Needs</h1>
+              <h1>Pricing</h1>
+              <p>Pricing Plans to Fit All Company Needs</p>
             </div>
             <ul className="pricing__cards">
               <li className="pricing__card">

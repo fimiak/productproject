@@ -97,12 +97,17 @@ button:active {
 .header ul li {
   color: #75a478;
   font-size: 13px;
-  font-weight: 500; }
+  font-weight: 500;
+  min-width: 70px; }
 
 .header a {
   color: #75a478;
+  font-weight: bold;
   padding: 5px 10px;
-  transition: 200ms; }
+  transition: 250ms; }
+
+.header .active {
+  color: #1b5e20; }
 
 .header a:hover {
   color: #1b5e20; }

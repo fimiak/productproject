@@ -5,6 +5,13 @@ class About extends React.Component {
   render() {
     return (
       <div className="about">
+        <div className="about__title">
+          <h1>Recycling done right</h1>
+          <p>
+            Bring unused metals and plastics. <br />
+            No hassle for you, we accept all returns.
+          </p>
+        </div>
         <div className="about__bg" />
         <div className="about__bg-two" />
         <div className="about__box">
